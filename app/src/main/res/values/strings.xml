@@ -24,7 +24,7 @@
     <string name="instruction">Instruction</string>
     <string name="exit">Exit</string>
     <string name="X">X</string>
-    <string name="Y">Y</string>
+    <string name="Y">O</string>
     <string name="draw">Draw:</string>
     <string name="information">Game Information</string>
     <string name="new_game">New Game</string>
