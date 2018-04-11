@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="app_logo">App Logo</string>
+    <string name="first_human">You go first.</string>
+    <string name="turn_human">Your turn.</string>
+    <string name="turn_computer">Computer\'s turn.</string>
+    <string name="turn_player_one">Player One\'s Turn.</string>
+    <string name="turn_player_two">Player Two\'s Turn.</string>
+    <string name="result_tie">It\'s a DRAW!!!</string>
+    <string name="result_human_wins">You Won!</string>
+    <string name="result_android_wins">Computer Won!</string>
+    <string name="result_player_one_wins">Player One Wins!</string>
+    <string name="result_player_two_wins">Player Two Wins!</string>
+    <string name="info">Info</string>
+    <string name="human">Human:  </string>
+    <string name="player_one">Player One:  </string>
+    <string name="ties">Ties:  </string>
+    <string name="android">Android:  </string>
+    <string name="player_two">Player Two:  </string>
+    <string name="one_player">Play Against Computer</string>
+    <string name="two_player">Multiplayer</string>
+    <string name="developer_logo">Developer Logo</string>
+    <string name="play_game">Play Game</string>
+    <string name="instruction">Instruction</string>
+    <string name="exit">Exit</string>
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="draw">Draw:</string>
+    <string name="information">Game Information</string>
+    <string name="new_game">New Game</string>
+    <string name="quit_game">Quit Game</string>
+    <string name="player">Player</string>
+    <string name="result_dashboard">Result Dashboard</string>
+    <string name="computer">Computer</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="_1">1: This game can be play in two mode which is either to play against
+        computer and to play with your friend. </string>
+    <string name="_3">3</string>
+    <string name="_2">2: The game has both easy level which are \"EASY LEVEL\" which has 3 Board
+        and  \"MEDIUM LEVEL\" which has 4 board and \"EXPERT LEVEL\" which has 5 boards</string>
+</resources>
