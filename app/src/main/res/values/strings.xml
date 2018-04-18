@@ -37,6 +37,6 @@
     <string name="_1">1: This game can be play in two mode which is either to play against
         computer and to play with your friend. </string>
     <string name="_3">3</string>
-    <string name="_2">2: The game has both easy level which are \"EASY LEVEL\" which has 3 Board
-        and  \"MEDIUM LEVEL\" which has 4 board and \"EXPERT LEVEL\" which has 5 boards</string>
+    <string name="_2">2: The game has THREE levels which are \"EASY LEVEL\" which has 3 Board
+        and  \"MEDIUM LEVEL\" which has 4 board and \"EXPERT LEVEL\" which has 5 board</string>
 </resources>

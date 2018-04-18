@@ -8,7 +8,6 @@ import java.util.Random;
 
 public class RandomUtilHard {
 
-
     public static final char PLAYER_ONE = 'X';
     public static final char PLAYER_TWO = '0';
     public static final char EMPTY_SPACE = ' ';
@@ -141,6 +140,4 @@ public class RandomUtilHard {
         // If we make it through the previous loop, all places are taken, so it's a tie
         return 1;
     }
-}
-
 }
