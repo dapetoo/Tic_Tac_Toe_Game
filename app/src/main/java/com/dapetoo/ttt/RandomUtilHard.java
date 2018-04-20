@@ -91,43 +91,59 @@ public class RandomUtilHard {
     // if O won.
     public int checkForWinner() {
         // Check horizontal wins
-        for (int i = 0; i <= 6; i += 3) {
+        for (int i = 0; i <= 20; i += 5) {
             if (mBoard[i] == PLAYER_ONE &&
                     mBoard[i + 1] == PLAYER_ONE &&
-                    mBoard[i + 2] == PLAYER_ONE)
+                    mBoard[i + 2] == PLAYER_ONE &&
+                    mBoard[i + 3] == PLAYER_ONE &&
+                    mBoard[i + 4] == PLAYER_ONE)
                 return 2;
             if (mBoard[i] == PLAYER_TWO &&
                     mBoard[i + 1] == PLAYER_TWO &&
-                    mBoard[i + 2] == PLAYER_TWO)
+                    mBoard[i + 2] == PLAYER_TWO &&
+                    mBoard[i + 3] == PLAYER_TWO &&
+                    mBoard[i + 4] == PLAYER_TWO)
                 return 3;
         }
 
         // Check vertical wins
-        for (int i = 0; i <= 2; i++) {
+        for (int i = 0; i <= 4; i++) {
             if (mBoard[i] == PLAYER_ONE &&
-                    mBoard[i + 3] == PLAYER_ONE &&
-                    mBoard[i + 6] == PLAYER_ONE)
+                    mBoard[i + 5] == PLAYER_ONE &&
+                    mBoard[i + 10] == PLAYER_ONE &&
+                    mBoard[i + 15] == PLAYER_ONE &&
+                    mBoard[i + 20] == PLAYER_ONE)
                 return 2;
             if (mBoard[i] == PLAYER_TWO &&
-                    mBoard[i + 3] == PLAYER_TWO &&
-                    mBoard[i + 6] == PLAYER_TWO)
+                    mBoard[i + 5] == PLAYER_TWO &&
+                    mBoard[i + 10] == PLAYER_TWO &&
+                    mBoard[i + 15] == PLAYER_TWO &&
+                    mBoard[i + 20] == PLAYER_TWO)
                 return 3;
         }
 
         // Check for diagonal wins
         if ((mBoard[0] == PLAYER_ONE &&
+                mBoard[6] == PLAYER_ONE &&
+                mBoard[12] == PLAYER_ONE &&
+                mBoard[18] == PLAYER_ONE &&
+                mBoard[24] == PLAYER_ONE) ||
                 mBoard[4] == PLAYER_ONE &&
-                mBoard[8] == PLAYER_ONE) ||
-                mBoard[2] == PLAYER_ONE &&
-                        mBoard[4] == PLAYER_ONE &&
-                        mBoard[6] == PLAYER_ONE)
+                        mBoard[8] == PLAYER_ONE &&
+                        mBoard[12] == PLAYER_ONE &&
+                        mBoard[16] == PLAYER_ONE &&
+                        mBoard[20] == PLAYER_ONE)
             return 2;
         if ((mBoard[0] == PLAYER_TWO &&
+                mBoard[6] == PLAYER_TWO &&
+                mBoard[12] == PLAYER_TWO &&
+                mBoard[18] == PLAYER_TWO &&
+                mBoard[24] == PLAYER_TWO) ||
                 mBoard[4] == PLAYER_TWO &&
-                mBoard[8] == PLAYER_TWO) ||
-                mBoard[2] == PLAYER_TWO &&
-                        mBoard[4] == PLAYER_TWO &&
-                        mBoard[6] == PLAYER_TWO)
+                        mBoard[8] == PLAYER_TWO &&
+                        mBoard[12] == PLAYER_TWO &&
+                        mBoard[16] == PLAYER_TWO &&
+                        mBoard[20] == PLAYER_TWO)
             return 3;
 
         // Check for a tie

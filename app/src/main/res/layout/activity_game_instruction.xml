@@ -33,7 +33,7 @@
         android:textSize="20sp"
         android:textColor="@color/colorWhite"
         android:fontFamily="sans-serif"
-        android:paddingTop="25dp"
+        android:paddingTop="10dp"
         tools:targetApi="jelly_bean"/>
 
     <TextView
@@ -43,7 +43,7 @@
         android:textSize="20sp"
         android:textColor="@color/colorWhite"
         android:fontFamily="sans-serif"
-        android:paddingTop="25dp"
+        android:paddingTop="10dp"
         tools:targetApi="jelly_bean"/>
 
 

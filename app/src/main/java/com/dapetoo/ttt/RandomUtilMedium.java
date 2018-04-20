@@ -91,7 +91,7 @@ public class RandomUtilMedium {
     // if O won.
     public int checkForWinner() {
         // Check horizontal wins
-        for (int i = 0; i <= 6; i += 4) {
+        for (int i = 0; i <= 12; i += 4) {
             if (mBoard[i] == PLAYER_ONE &&
                     mBoard[i + 1] == PLAYER_ONE &&
                     mBoard[i + 2] == PLAYER_ONE &&
@@ -105,7 +105,7 @@ public class RandomUtilMedium {
         }
 
         // Check vertical wins
-        for (int i = 0; i <= 2; i++) {
+        for (int i = 0; i <= 3; i++) {
             if (mBoard[i] == PLAYER_ONE &&
                     mBoard[i + 4] == PLAYER_ONE &&
                     mBoard[i + 8] == PLAYER_ONE &&

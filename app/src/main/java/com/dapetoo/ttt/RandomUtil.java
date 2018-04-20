@@ -14,11 +14,8 @@ public class RandomUtil {
     public static final char PLAYER_TWO = '0';
     public static final char EMPTY_SPACE = ' ';
     private final static int BOARD_SIZE = 9;
-    private final static int MEDIUM_BOARD_SIZE = 16;
-    private final static int HARD_BOARD_SIZE = 25;
     private char mBoard[];
     private Random mRand;
-    private Random mRand2;
 
 
     public RandomUtil() {
@@ -35,17 +32,6 @@ public class RandomUtil {
     public static int getBOARD_SIZE() {
         // Return the size of the board
         return BOARD_SIZE;
-    }
-
-    //////////from this method are the new methods
-    public static int getMEDIUM_BOARD_SIZE() {
-        // Return the size of the board
-        return MEDIUM_BOARD_SIZE;
-    }
-
-    public static int getHARD_BOARD_SIZE() {
-        // Return the size of the board
-        return HARD_BOARD_SIZE;
     }
 
     // Clear the board of all X's and O's

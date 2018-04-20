@@ -39,4 +39,9 @@
     <string name="_3">3</string>
     <string name="_2">2: The game has THREE levels which are \"EASY LEVEL\" which has 3 Board
         and  \"MEDIUM LEVEL\" which has 4 board and \"EXPERT LEVEL\" which has 5 board</string>
+    <string name="_4_x_4_board">4 X 4 Board</string>
+    <string name="_5_x_5_board">5 X 5 Board</string>
+    <string name="back">Back</string>
+    <string name="select_level">Select Level</string>
+    <string name="_3_x_3_board">3 X 3 Board</string>
 </resources>
