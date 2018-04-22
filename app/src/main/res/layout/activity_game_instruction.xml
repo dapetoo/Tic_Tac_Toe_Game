@@ -3,47 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
     android:background="@color/colorPrimaryDark"
     tools:context="com.dapetoo.ttt.GameInstruction">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:src="@drawable/logo"
-        android:contentDescription="@string/app_logo" />
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:contentDescription="@string/app_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logo" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
         android:text="@string/how_to_play"
         android:textColor="@color/colorWhite"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        android:paddingTop="25dp"
-        android:gravity="center_horizontal"
         android:textSize="25sp"
-        tools:targetApi="jelly_bean"/>
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:targetApi="jelly_bean" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_1"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="@color/colorWhite"
         android:fontFamily="sans-serif"
-        android:paddingTop="10dp"
         tools:targetApi="jelly_bean"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_2"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="@color/colorWhite"
         android:fontFamily="sans-serif"
-        android:paddingTop="10dp"
         tools:targetApi="jelly_bean"/>
 
 
@@ -54,15 +59,16 @@
         android:textColor="@color/colorWhite"
         android:textStyle="bold"
         android:fontFamily="sans-serif"
-        android:paddingTop="25dp"
         android:gravity="center_horizontal"
         tools:targetApi="jelly_bean"/>
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:src="@drawable/developer"
-        android:contentDescription="@string/developer_logo" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:contentDescription="@string/developer_logo"
+        android:src="@drawable/developer" />
 
 </LinearLayout>
 

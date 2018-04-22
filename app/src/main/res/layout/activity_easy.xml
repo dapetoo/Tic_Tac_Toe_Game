@@ -22,30 +22,6 @@
         android:text="@string/information"
         android:textSize="20sp" />
 
-    <RadioGroup
-        android:id="@+id/radio_group_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="40dp">
-
-        <RadioButton
-            android:id="@+id/x_radio_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="PLAY as X"
-            android:textAppearance="?android:textAppearanceMedium" />
-
-        <RadioButton
-            android:id="@+id/o_radio_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="PLAY as O"
-            android:textAppearance="?android:textAppearanceMedium" />
-    </RadioGroup>
-
     <TableLayout
         android:id="@+id/playArea"
         android:layout_width="match_parent"
